@@ -1,0 +1,38 @@
+.wrapper{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.heading{
+    background-color: #FFC48C;
+    font-size: 50px;
+    padding: 40px 20px 20px 40px;
+    height: 80px;
+}
+.nav{
+    background-color: #ECEEDF;  
+    padding: 10px 10px 10px 20px;
+}
+.nav1,.nav2,.nav3,.nav4{
+    display: inline-block;
+}
+.main_content{
+    padding: 20px 20px 20px 20px;
+}
+.sub_heading{
+    font-size: 30px;
+}
+.container{
+width: 1200px;
+display: grid;
+grid-template-columns: 1320px 200px;
+;    
+}
+.right_content{
+    background-color: #D9EBF5;
+}
+.footer{
+    background-color: #E7E1ED;
+}
+.text{
+    text-align: right;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Grid</title>
+  <style>
+    body{ font-family: arial,helvetica; }
+    h1{ padding: 0 0 0 40px; }
+
+    .container{
+      background: lightgrey;
+      width:650px;
+      margin: 50px auto 0;
+
+      display: grid;
+      grid-template-columns: fit-content(200px) fit-content(300px) 1fr;
+      grid-template-rows: 300px 40x 1fr ;
+
+      grid-auto-rows: 80px;
+    }
+
+    .item1{ background: orangered; }
+    .item2{ background: yellowgreen; }
+    .item3{ background: MEDIUMPURPLE; }
+    .item4{ background: hotpink; }
+    .item5{ background: royalblue; }
+    .item6{ background: goldenrod; }
+    .item7{ background: ORCHID; }
+    .item8{ background: #7DCEA0; }
+    .items{ color: #fff;font-size: 20px;font-weight: bold;padding: 10px;}
+  </style>
+</head>
+<body>
+  <h1>  CSS Grid Fit-Content</h1>
+
+  <div class="container">
+    <div class="items item1">One</div>
+    <div class="items item2">Two</div>
+    <div class="items item3">Three</div>
+    <div class="items item4">Four</div>
+    <div class="items item5">Five</div>
+    <div class="items item6">Six</div>
+  </div>
+</body>
+</html>
